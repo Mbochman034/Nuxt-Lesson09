@@ -18,6 +18,16 @@ export default {
   components: {
     Jumbotron,
     HomeCards,
-  }
-}
+  },
+  head: {
+      title: 'Home |  The Potted Garden',
+      meta: [
+        {
+          hid: 'Get inspired by some of our most recent potted gardening projects',
+          name: 'Get Inspired by potted gardening',
+          content: 'Get Inspired by potted gardening'
+        }
+      ],
+    }
+};
 </script>

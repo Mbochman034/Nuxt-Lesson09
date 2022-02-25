@@ -17,6 +17,16 @@ export default {
   components: {
     Intro1,
     Gallery,
-  }
-}
+  },
+  head: {
+      title: 'Get Inspired | The Potted Garden',
+      meta: [
+        {
+          hid: 'Get inspired by some of our most recent potted gardening projects',
+          name: 'Get Inspired by potted gardening',
+          content: 'Get Inspired by potted gardening'
+        }
+      ],
+    }
+};
 </script>

@@ -55,11 +55,11 @@ export default {
   },
   head() {
     return {
-      title: "Dad Jokes",
+      title: "Jokes | The Potted Garden",
       meta: [
         {
-          hid: "description",
-          name: "description",
+          hid: "Jokes for Days",
+          name: "Jokes for Days",
           content: "Best place for corny dad jokes"
         }
       ]

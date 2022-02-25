@@ -1,3 +1,5 @@
+// head property to set default meta for all pages
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

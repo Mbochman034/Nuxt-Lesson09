@@ -20,8 +20,18 @@ export default {
     Intro3,
     Popper,
     Search,
-  }
-}
+  },
+  head: {
+      title: 'About | The Potted Garden',
+      meta: [
+        {
+          hid: 'About Us, how we got started with potted gardening',
+          name: 'How we got started with potted gardenin',
+          content: 'How we got started with potted gardenin'
+        }
+      ],
+    }
+};
 </script>
 
 

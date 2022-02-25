@@ -17,6 +17,16 @@ export default {
   components: {
     Intro2,
     Accordion,
-  }
-}
+  },
+  head: {
+        title: 'Common Terms | The Potted Garden',
+        meta: [
+          {
+            hid: 'Browse common gardening terms',
+            name: 'Browse common gardening terms',
+            content: 'Browse common gardening terms'
+          }
+        ],
+      }
+};
 </script>
